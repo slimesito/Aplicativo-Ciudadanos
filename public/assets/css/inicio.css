@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 88vh;
+    width: 100%;
+    background: url('/assets/fondo-ivss.png') no-repeat center center / cover;
+    overflow: hidden;
+}
+
+.navbar {
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+    background-color: transparent;
+    padding: 10px 0;
+    position: initial;
+    top: 0;
+    z-index: 1000;
+    pointer-events: none;
+}
+
+.logo img {
+    width: 1300px;
+    height: 70px;
+}
+
+/* ALERTAS */
+
+.alert {
+    padding: 20px;
+    background-color: #f44336;
+    color: white;
+}
+
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: black;
+}
+
+/* CAJA */
+
+.form-box{
+    position: relative;
+    width: 400px;
+    height: 500px;
+    background: transparent;
+    border: 4px solid red;
+    border-radius: 20px;
+    backdrop-filter: blur(25px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    font-size: 2em;
+    color: red;
+    text-align: center;
+    font-weight: 1000;
+}
+
+.inputbox{
+    position: relative;
+    margin: 30px 0;
+    width: 310px;
+    border-bottom: 3px solid red;
+}
+
+.inputbox label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    color: black;
+    font-size: 1em;
+    pointer-events: none;
+    transition: .5s;
+}
+
+input:focus ~ label,
+input:valid ~ label{
+    top: -5px;
+}
+
+.inputbox input {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding: 0 35px 0 5px;
+    color: black;
+}
+
+.inputbox ion-icon{
+    position: absolute;
+    right: 8px;
+    color: red;
+    font-size: 1.2em;
+    top: 20px;
+}
+
+.selectBuscador{
+    border: none;
+    width: 300px;
+    height: 50px;
+    background-color: transparent;
+    font-size: 1em;
+}
+
+/* BOTONES CAJA */
+
+.home-btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.home-btns button,
+.home-btns a {
+    margin: 0;
+}
+
+/* BOTÓN BÚSQUEDA */
+
+.btn-search {
+    background: linear-gradient(to bottom right, #EF4765, #fa0c04);
+    border: 0;
+    border-radius: 12px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 2.5;
+    outline: transparent;
+    padding: 0 1rem;
+    text-align: center;
+    text-decoration: none;
+    transition: box-shadow .2s ease-in-out;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+}
+
+.btn-search:not([disabled]):focus {
+    box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+.btn-search:not([disabled]):hover {
+    box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+/* BOTÓN REGISTRO DE CIUDADANOS */
+
+.btn-add {
+    background: linear-gradient(to bottom right, #EF4765, #fa0c04);
+    border: 0;
+    border-radius: 12px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 2.5;
+    outline: transparent;
+    padding: 0 1rem;
+    text-align: center;
+    text-decoration: none;
+    transition: box-shadow .2s ease-in-out;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+}
+
+.btn-add:not([disabled]):focus {
+    box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+.btn-add:not([disabled]):hover {
+    box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+/* TABLA */
+
+.content-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    background-color: white;
+}
+
+.content-table thead tr {
+    background-color: red;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+}
+
+.content-table th, 
+.content-table td {
+    padding: 12px 12px;
+}
+
+.content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+    text-align: center;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.content-table tbody tr:last-of-type {
+    border-bottom: 2px solid red;
+}
+
+/* BOTÓN EDITAR EN TABLA */
+
+.edit-btn {
+    appearance: none;
+    background-color: #28A745;
+    border: 1px solid #28A745;
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+    box-sizing: border-box;
+    color: #000000;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 6px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.edit-btn:focus:not(:focus-visible):not(.focus-visible) {
+    box-shadow: none;
+    outline: none;
+}
+
+.edit-btn:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+
+.edit-btn:focus {
+    box-shadow: rgba(10, 221, 70, 0.4) 0 0 0 3px;
+outline: none;
+}
+
+.edit-btn:disabled {
+    background-color: #94d3a2;
+    border-color: rgba(27, 31, 35, .1);
+    color: rgba(255, 255, 255, .8);
+    cursor: default;
+}
+  
+.edit-btn:active {
+    background-color: #1e662f;
+    box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+}
+
+/* BOTÓN VOLVER ATRÁS */
+
+.back{
+    font-size: 25px;
+    color: black;
+    text-align: center;
+    margin: 25px 30px 10px;
+    float: right;
+}
+
+.back p a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.back p a:hover{
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+

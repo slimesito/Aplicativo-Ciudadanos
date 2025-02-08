@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 88vh;
+    width: 100%;
+    background: url('/assets/fondo-ivss.png') no-repeat center center / cover;
+    overflow: hidden;
+}
+
+.navbar {
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+    background-color: transparent;
+    padding: 10px 0;
+    position: initial;
+    top: 0;
+    z-index: 1000;
+    pointer-events: none;
+}
+
+.logo img {
+    width: 1300px;
+    height: 70px;
+}
+
+/* ALERTAS */
+
+.alert {
+    padding: 20px;
+    background-color: #f44336;
+    color: white;
+}
+
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: black;
+}
+
+/* CAJA */
+
+.form-box{
+    position: relative;
+    width: 1000px;
+    height: 600px;
+    background: transparent;
+    border: 2px solid red;
+    border-radius: 20px;
+    backdrop-filter: blur(60px);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    font-size: 2em;
+    color: black;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.cedula-inputs{
+    display: flex;
+    justify-content: center;
+  }
+
+.cedula_select {
+	float: center;
+	width: 5%;
+}
+
+.cedula {
+	float: center;
+	width: 25%;
+}
+
+.primer_nombre {
+	float: left;
+	width: 45%;
+}
+
+.segundo_nombre {
+	float: right;
+	width: 45%;
+}
+
+.primer_apellido {
+	float: left;
+	width: 45%;
+}
+
+.segundo_apellido {
+	float: right;
+	width: 45%;
+}
+
+.nacionalidad {
+	float: left;
+	width: 45%;
+}
+
+.sexo {
+	float: left;
+	width: 45%;
+}
+
+.estado_civil {
+	float: right;
+	width: 45%;
+}
+
+.fecha_nacimiento {
+	float: left;
+	width: 45%;
+}
+
+.fecha_fallecimiento {
+	float: right;
+	width: 45%;
+}
+
+select {
+  background: url('https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-arrow-down-32.png') no-repeat right;
+  outline: red;
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+input[type='text']:focus, [type='date']:focus, textarea:focus {
+	outline: red;
+	
+}
+
+input[type='text'], [type='date'], select, textarea {
+	background: transparent;
+    border: white;
+	border-bottom: solid 2px red;
+	color: black;
+	font-size: 1.000em;
+    font-weight: 400;
+    letter-spacing: 1px;
+	margin: 0em 0 1.875em 0;
+	padding: 5px 0 0.875em 0;
+	width: 97%;
+	
+}
+
+/* BOTON REGISTRAR */
+
+.btn-box-register {
+	float: center;
+	width: 25%;
+}
+
+.btn-register {
+    width: 120px;
+    background: linear-gradient(to bottom right, #EF4765, #fa0c04);
+    border: 0;
+    border-radius: 12px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 2.5;
+    outline: transparent;
+    padding: 0 1rem;
+    text-align: center;
+    text-decoration: none;
+    transition: box-shadow .2s ease-in-out;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+}
+
+.btn-register:not([disabled]):focus {
+    box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+.btn-register:not([disabled]):hover {
+    box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+/* BOTON VOLVER ATRAS */
+
+.back{
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    margin: 25px 30px 10px;
+    float: right;
+}
+
+.back p a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.back p a:hover{
+    text-decoration: underline;
+    text-decoration-color: red;
+}
