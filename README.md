@@ -22,7 +22,7 @@ Si la Cédula no se encuentra registrada en la base de datos la aplicación arro
 
 <br>
 
-<p align="center"><a><img src="https://i.ibb.co/XfqM9DLf/error-de-busqueda.jpg" width="600" alt="Error"></a></p>
+<p align="center"><a><img src="https://i.ibb.co/XfqM9DLf/error-de-busqueda.jpg" width="400" alt="Error"></a></p>
 
 <br>
 
@@ -38,7 +38,7 @@ Al encontrar la cédula se muestra la información detallada del Ciudadano regis
 
 <br>
 
-<p align="center"><a><img src="https://i.ibb.co/C5RNmnjF/acciones.jpg" width="100" alt="Botón Editar"></a></p>
+<p align="center"><a><img src="https://i.ibb.co/C5RNmnjF/acciones.jpg" width="300" alt="Botón Editar"></a></p>
 
 <br>
 
@@ -70,7 +70,7 @@ En caso de que hayan campos vacíos la aplicación arrojará una alerta:
 
 <br>
 
-<p align="center"><a><img src="https://i.ibb.co/TB3f7XwC/error-registro-nulo.jpg" width="400" alt="Create"></a></p>
+<p align="center"><a><img src="https://i.ibb.co/TB3f7XwC/error-registro-nulo.jpg" width="700" alt="Create"></a></p>
 
 <br>
 
@@ -78,4 +78,4 @@ Una vez guardada la información se arrojará el siguiente mensaje:
 
 <br>
 
-<p align="center"><a><img src="https://i.ibb.co/T3k1sBk/mensaje-success-registro.jpg" width="600" alt="Updated Data"></a></p>
+<p align="center"><a><img src="https://i.ibb.co/T3k1sBk/mensaje-success-registro.jpg" width="400" alt="Updated Data"></a></p>
