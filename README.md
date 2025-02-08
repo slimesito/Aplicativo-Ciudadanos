@@ -38,7 +38,7 @@ Al encontrar la cédula se muestra la información detallada del Ciudadano regis
 
 <br>
 
-<p align="center"><a><img src="https://i.ibb.co/C5RNmnjF/acciones.jpg" width="300" alt="Botón Editar"></a></p>
+<p align="center"><a><img src="https://i.ibb.co/C5RNmnjF/acciones.jpg" width="250" alt="Botón Editar"></a></p>
 
 <br>
 
