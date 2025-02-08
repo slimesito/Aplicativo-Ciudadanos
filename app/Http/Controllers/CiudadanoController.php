@@ -10,23 +10,31 @@ use Illuminate\Support\Facades\DB;
 class CiudadanoController extends Controller
 {
     public function search(Request $request)
-
     {
         $nationality = $request->input('nationality');
-
         $query = $request->input('query');
-
         $fullId = $nationality . str_pad($query, 9, '0', STR_PAD_LEFT);
 
         $ciudadanos = Ciudadano::where('id_ciudadano', '=', $fullId)->get();
 
         if ($ciudadanos->isEmpty()) {
-
             return redirect()->back()->with('message', 'Esta Cédula no se encuentra registrada.');
+        }
 
+        // Formatear id_ciudadano de cada ciudadano
+        foreach ($ciudadanos as $ciudadano) {
+            $ciudadano->formatted_id = $this->formatId($ciudadano->id_ciudadano);
         }
 
         return view('busqueda', compact('ciudadanos'));
+    }
+
+    // Método para formatear el ID
+    private function formatId($id)
+    {
+        $nationality = substr($id, 0, 1); // Primera letra (V o E)
+        $numbers = ltrim(substr($id, 1), '0'); // Eliminar ceros a la izquierda
+        return $nationality . '-' . $numbers;
     }
 
     public function create()

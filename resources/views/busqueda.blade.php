@@ -29,7 +29,7 @@
 
             @foreach($ciudadanos as $ciudadano)
                 <tr>
-                    <td>{{ $ciudadano->id_ciudadano }}</td>
+                    <td>{{ $ciudadano->formatted_id }}</td>
                     <td>{{ $ciudadano->primer_nombre }}</td>
                     <td>{{ $ciudadano->segundo_nombre }}</td>
                     <td>{{ $ciudadano->primer_apellido }}</td>
