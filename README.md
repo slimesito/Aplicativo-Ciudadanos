@@ -6,7 +6,7 @@ Es una aplicación web diseñada específicamente para los trabajadores del Inst
 
 <br>
 
-<p align="center"><a><img src="https://ibb.co/fYRK7hxF" width="800" alt="Home View"></a></p>
+<p align="center"><a><img src="https://i.ibb.co/XZBdThCL/inicio.jpg" width="800" alt="Home View"></a></p>
 
 <br>
 
