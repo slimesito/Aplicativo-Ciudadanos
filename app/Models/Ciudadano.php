@@ -12,8 +12,8 @@ class Ciudadano extends Model
     protected $connection = 'oracle';
     protected $table = 'CIUDADANO';
     protected $primaryKey = 'id_ciudadano';
-    public $incrementing = false;
     protected $keyType = 'string';
+    public $incrementing = false;
     public $timestamps = false;
 
     protected $fillable = [

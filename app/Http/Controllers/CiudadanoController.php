@@ -21,7 +21,6 @@ class CiudadanoController extends Controller
             return redirect()->back()->with('message', 'Esta Cédula no se encuentra registrada.');
         }
 
-        // Formatear id_ciudadano de cada ciudadano
         foreach ($ciudadanos as $ciudadano) {
             $ciudadano->formatted_id = $this->formatId($ciudadano->id_ciudadano);
         }
@@ -29,11 +28,10 @@ class CiudadanoController extends Controller
         return view('busqueda', compact('ciudadanos'));
     }
 
-    // Método para formatear el ID
     private function formatId($id)
     {
-        $nationality = substr($id, 0, 1); // Primera letra (V o E)
-        $numbers = ltrim(substr($id, 1), '0'); // Eliminar ceros a la izquierda
+        $nationality = substr($id, 0, 1);
+        $numbers = ltrim(substr($id, 1), '0');
         return $nationality . '-' . $numbers;
     }
 
@@ -146,5 +144,4 @@ class CiudadanoController extends Controller
 
         return redirect('/')->with('success', 'Ciudadano actualizado satisfactoriamente!');
     }
-    
 }
