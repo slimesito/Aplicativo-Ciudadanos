@@ -1,6 +1,6 @@
 <p align="center"><a><img src="https://i.ibb.co/7YMFkYq/Logoivssrojo.png" alt="IVSS Logo"></a></p>
 
-## Aplicativo-Ciudadanos
+## Aplicativo-Ciudadanoss
 
 Es una aplicación web diseñada específicamente para los trabajadores del Instituto Venezolano de los Seguros Sociales (IVSS). Su principal objetivo es permitir la adición eficiente de nuevos ciudadanos a la base de datos del IVSS, así como también una búsqueda detallada de cada Ciudadano ya registrado en dicha base de datos y la gestión de información de los mismos.
 
