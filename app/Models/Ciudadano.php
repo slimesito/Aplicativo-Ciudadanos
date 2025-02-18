@@ -21,9 +21,9 @@ class Ciudadano extends Model
         'sexo',
         'rif',
         'fecha_nacimiento',
-        'id_estado_civil',
-        'telefono_movil',
-        'email_principal',
+        'estado_civil',
+        'telefono',
+        'email',
         'fecha_fallecimiento',
     ];
 }
