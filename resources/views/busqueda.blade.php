@@ -36,7 +36,7 @@
                     <td>{{ $ciudadano->segundo_apellido }}</td>
                     <td>{{ $ciudadano->sexo }}</td>
                     <td>
-                        @switch($ciudadano->id_estado_civil)
+                        @switch($ciudadano->estado_civil)
                             @case(1)
                                 Soltero(a)
                                 @break
@@ -62,7 +62,7 @@
                     <td>{{ \Carbon\Carbon::parse($ciudadano->fecha_nacimiento)->format('d-m-Y') }}</td>
                     <td>{{ $ciudadano->fecha_fallecimiento ? \Carbon\Carbon::parse($ciudadano->fecha_fallecimiento)->format('d-m-Y') : '' }}</td>
                     <td>
-                        <a href="{{ route('editar.ciudadano.view', $ciudadano->id_ciudadano) }}" class="edit-btn"><i class="fa-regular fa-pen-to-square"></i></a>
+                        <a href="{{ route('editar.ciudadano.view', $ciudadano->id) }}" class="edit-btn"><i class="fa-regular fa-pen-to-square"></i></a>
                     </td>
                 </tr>
             @endforeach

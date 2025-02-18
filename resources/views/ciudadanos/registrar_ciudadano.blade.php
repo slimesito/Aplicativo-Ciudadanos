@@ -25,7 +25,7 @@
                     </div>
 
                     <div class="cedula">
-                        <input type="text" placeholder="Cédula de Identidad" name="id_ciudadano" id="cedula" required>
+                        <input type="text" placeholder="Cédula de Identidad" name="id" id="cedula" required>
                     </div>
                 
                 </div>
@@ -74,7 +74,7 @@
                 <div class="estado_civil">
 
                     <label for="id_estado_civil">Estado Civil</label>
-                    <select placeholder="Estado Civil" name="id_estado_civil" id="estado_civil_input" required>
+                    <select placeholder="Estado Civil" name="estado_civil" id="estado_civil_input" required>
 
                         <option disabled hidden selected>Estado Civil</option>
                         <option value="1">SOLTERO(A)</option>

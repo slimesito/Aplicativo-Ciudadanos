@@ -5,7 +5,7 @@
 @section('content')
     <div class="form-box-edit">
         <div class="form value">
-            <form action="{{ route('ciudadanos.update', $ciudadano->id_ciudadano) }}" method="POST">
+            <form action="{{ route('ciudadanos.update', $ciudadano->id) }}" method="POST">
                 @csrf
                 @method('PUT')
                 
@@ -52,7 +52,7 @@
                 <div class="estado_civil">
                     <label for="id_estado_civil">Estado Civil</label>
                     <select name="id_estado_civil" id="estado_civil_input" required>
-                        <option hidden selected value="{{ $ciudadano->id_estado_civil }}">
+                        <option hidden selected value="{{ $ciudadano->estado_civil }}">
                             @switch($ciudadano->id_estado_civil)
                                 @case(1)
                                     SOLTERO(A)
