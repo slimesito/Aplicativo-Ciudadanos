@@ -26,7 +26,7 @@ It is a web application designed specifically for workers of the Venezuelan Soci
 
 This Web Application was created in Laravel 10, for the Front-End both HTML and CSS as well as JavaScript were used and for the Database the IVSS Database in Oracle was used.
 
-* <p><a href="https://laravel.com/"><img src="https://www.liblogo.com/img-logo/sml/la250lec9-laravel-logo-laravel-logo-air.webp" width="100" alt="Laravel Logo"></a></p>
+* <p><a href="https://laravel.com/"><img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*o3osXIIdBYH3ovy86s1pFw.png" width="100" alt="Laravel Logo"></a></p>
 * <p><a href="https://www.php.net/"><img src="https://www.php.net//images/logos/new-php-logo.svg" width="100" alt="PHP Logo"></a></p>
 * <p><a href="https://www.oracle.com/"><img src="https://1000marcas.net/wp-content/uploads/2020/11/Oracle-logo-600x309.png" width="100" alt="Oracle Logo"></a></p>
 
