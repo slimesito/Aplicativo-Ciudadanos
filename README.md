@@ -3,25 +3,10 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/slimesito/Aplicativo-Ciudadanos">
-    <img src="https://i.ibb.co/7YMFkYq/Logoivssrojo.png" alt="Logo IVSS" width="80" height="80">
-  </a>
-
+  <a href="https://github.com/slimesito/Aplicativo-Ciudadanos"><img src="https://i.ibb.co/7YMFkYq/Logoivssrojo.png" alt="Logo IVSS" width="80" height="80"></a>
   <h3 align="center">Web Application Ciudadanos</h3>
-
-  <p align="center">
-
-    Web application made in Laravel 10 with HTML, CSS and JavaScript.
-
-    <br />
-
-    <a href="http://www.ivss.gov.ve/"><strong>IVSS Official Website</strong></a>
-
-    <br />
-  </p>
+  <p align="center">Web application made in Laravel 10 with HTML, CSS and JavaScript.<br /><a href="http://www.ivss.gov.ve/"><strong>IVSS Official Website</strong></a><br /></p>
 </div>
-
-
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -48,8 +33,6 @@
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
-
-
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
