@@ -3,7 +3,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-	<a href="https://github.com/slimesito/Aplicativo-Ciudadanos"><img src="https://i.ibb.co/7YMFkYq/Logoivssrojo.png" alt="Logo IVSS" width="80" height="80"></a>
+	<a href="https://github.com/slimesito/Aplicativo-Ciudadanos"><img src="https://i.ibb.co/7YMFkYq/Logoivssrojo.png" alt="Logo IVSS" width="200" height="200"></a>
 	<h3 align="center">Web Application Ciudadanos</h3>
 	<p align="center">Web application made in Laravel 10 with HTML, CSS and JavaScript.
 		<br>
@@ -26,9 +26,9 @@ It is a web application designed specifically for workers of the Venezuelan Soci
 
 This Web Application was created in Laravel 10, for the Front-End both HTML and CSS as well as JavaScript were used and for the Database the IVSS Database in Oracle was used.
 
-* <p><a><img src="https://www.pngwing.com/en/free-png-azcmi" width="100" href="https://laravel.com/" alt="Laravel Logo"></a></p>
-* <p><a><img src="https://www.php.net//images/logos/new-php-logo.svg" width="100" href="https://www.php.net/" alt="PHP Logo"></a></p>
-* <p><a><img src="https://1000marcas.net/wp-content/uploads/2020/11/Oracle-logo-600x309.png" href="https://www.oracle.com/" width="100" alt="Oracle Logo"></a></p>
+* <p><a href="https://laravel.com/"><img src="https://w7.pngwing.com/pngs/399/620/png-transparent-laravel-hd-logo-thumbnail.png" width="100" alt="Laravel Logo"></a></p>
+* <p><a href="https://www.php.net/"><img src="https://www.php.net//images/logos/new-php-logo.svg" width="100" alt="PHP Logo"></a></p>
+* <p><a href="https://www.oracle.com/"><img src="https://1000marcas.net/wp-content/uploads/2020/11/Oracle-logo-600x309.png" width="100" alt="Oracle Logo"></a></p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
