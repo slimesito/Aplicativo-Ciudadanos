@@ -1,24 +1,88 @@
-<p align="center"><a><img src="https://i.ibb.co/7YMFkYq/Logoivssrojo.png" alt="IVSS Logo"></a></p>
+<a id="readme-top"></a>
 
-## Aplicativo-Ciudadanos
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/slimesito/Aplicativo-Ciudadanos">
+    <img src="https://i.ibb.co/7YMFkYq/Logoivssrojo.png" alt="Logo IVSS" width="80" height="80">
+  </a>
 
-Es una aplicación web diseñada específicamente para los trabajadores del Instituto Venezolano de los Seguros Sociales (IVSS). Su principal objetivo es permitir la adición eficiente de nuevos ciudadanos a la base de datos del IVSS, así como también una búsqueda detallada de cada Ciudadano ya registrado en dicha base de datos y la gestión de información de los mismos.
+  <h3 align="center">Web Application Ciudadanos</h3>
 
-<br>
+  <p align="center">
+
+    Web application made in Laravel 10 with HTML, CSS and JavaScript.
+
+    <br />
+
+    <a href="http://www.ivss.gov.ve/"><strong>IVSS Official Website</strong></a>
+
+    <br />
+  </p>
+</div>
+
+
+
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
+
+
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
 <p align="center"><a><img src="https://i.ibb.co/XZBdThCL/inicio.jpg" width="800" alt="Home View"></a></p>
 
-<br>
+It is a web application designed specifically for workers of the Venezuelan Social Security Institute (IVSS). Its main objective is to allow the efficient addition of new citizens to the IVSS database, as well as a detailed search of each Citizen already registered in said database and the management of their information.
 
-## Características 📃
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-- Búsqueda: Primero se le pide al usuario seleccionar la nacionalidad del Ciudadano (Venezolano o Extranjero) y luego la Cédula de Identidad para asegurar de esta manera una búsqueda precisa dentro de la base de datos del IVSS.
+### Built With
+
+This Web Application was created in Laravel 10, for the Front-End both HTML and CSS as well as JavaScript were used and for the Database the IVSS Database in Oracle was used.
+
+* <p align="center"><a><img src="https://logospng.org/wp-content/uploads/laravel.png" width="50" alt="Laravel Logo"></a></p>
+* <p align="center"><a><img src="https://www.php.net//images/logos/new-php-logo.svg" width="50" alt="PHP Logo"></a></p>
+* <p align="center"><a><img src="https://1000marcas.net/wp-content/uploads/2020/11/Oracle-logo-600x309.png" width="50" alt="Oracle Logo"></a></p>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
+## Characteristics
+
+### - Search
+
+First, the user is asked to select the citizen's nationality (Venezuelan or Foreigner) and then the Identity Card to ensure an accurate search within the IVSS database.
 
 <p align="center"><a><img src="https://i.ibb.co/Wp4cbpMY/cedula.jpg" width="400" alt="Search"></a></p>
 
 <br>
 
-Si la Cédula no se encuentra registrada en la base de datos la aplicación arrojará el siguiente error:
+If the ID is not registered in the database, the application will display the following error:
 
 <br>
 
@@ -26,56 +90,78 @@ Si la Cédula no se encuentra registrada en la base de datos la aplicación arro
 
 <br>
 
-Al encontrar la cédula se muestra la información detallada del Ciudadano registrado en la Base de Datos y la muestra en una tabla de manera rápida y eficiente. Se ha hecho un enfoque especial en la interfaz de usuario, buscando hacerla amigable e intuitiva. Esto asegura que los trabajadores puedan realizar sus tareas rápidamente y con comodidad, mejorando así la eficiencia operativa.
+When the ID card is found, the detailed information of the Citizen registered in the Database is displayed and shown in a table quickly and efficiently. A special focus has been placed on the user interface, seeking to make it user-friendly and intuitive. This ensures that workers can perform their tasks quickly and comfortably, thus improving operational efficiency.
 
 <br>
 
-<p align="center"><a><img src="https://i.ibb.co/hFrxFXmT/resultado-de-busqueda.jpg" width="800" alt="Resultado búsqueda"></a></p>
+<p align="center"><a><img src="https://i.ibb.co/hFrxFXmT/resultado-de-busqueda.jpg" width="800" alt="Search Result"></a></p>
 
 <br>
 
-- Edición: Se permite al usuario Actualizar los datos del Ciudadano encontrado al darle click al botón verde de la columna Acciones.
+### - Edit
+
+The user is allowed to Update the data of the found Citizen by clicking the green button in the Actions column.
 
 <br>
 
-<p align="center"><a><img src="https://i.ibb.co/C5RNmnjF/acciones.jpg" width="150" alt="Botón Editar"></a></p>
+<p align="center"><a><img src="https://i.ibb.co/C5RNmnjF/acciones.jpg" width="150" alt="Edit Button"></a></p>
 
 <br>
 
-Luego se redirige al usuario a la vista del formulario de Edición:
+The user is then redirected to the Edit form view:
 
 <br>
 
-<p align="center"><a><img src="https://i.ibb.co/3yfDrHSW/formulario-edicion.jpg" width="800" alt="Resultado búsqueda"></a></p>
+<p align="center"><a><img src="https://i.ibb.co/3yfDrHSW/formulario-edicion.jpg" width="800" alt="Edit Form"></a></p>
 
 <br>
 
-- Registro: El Usuario deberá hacer click en el botón de Registrar:
+### - Register
+
+The User must click on the Register button:
 
 <br>
 
-<p align="center"><a><img src="https://i.ibb.co/rBSzVRp/registrar-boton.jpg" width="400" alt="Create"></a></p>
+<p align="center"><a><img src="https://i.ibb.co/rBSzVRp/registrar-boton.jpg" width="400" alt="Register"></a></p>
 
 <br>
 
-Luego se redirige al Usuario a la vista del Formulario para Registrar nuevos Ciudadanos dentro de la Base de Datos del IVSS.
+The User is then redirected to the Form view to Register new Citizens within the IVSS Database.
 
 <br>
 
-<p align="center"><a><img src="https://i.ibb.co/wFhbmyF7/formulario-registro.jpg" width="800" alt="Create Form"></a></p>
+<p align="center"><a><img src="https://i.ibb.co/wFhbmyF7/formulario-registro.jpg" width="800" alt="Register Form"></a></p>
 
 <br>
 
-En caso de que hayan campos vacíos la aplicación arrojará una alerta:
+In case there are empty fields the application will throw an alert:
 
 <br>
 
-<p align="center"><a><img src="https://i.ibb.co/TB3f7XwC/error-registro-nulo.jpg" width="700" alt="Create"></a></p>
+<p align="center"><a><img src="https://i.ibb.co/TB3f7XwC/error-registro-nulo.jpg" width="700" alt="Register Error"></a></p>
 
 <br>
 
-Una vez guardada la información se arrojará el siguiente mensaje:
+Once the information is saved, the following message will be displayed:
 
 <br>
 
 <p align="center"><a><img src="https://i.ibb.co/T3k1sBk/mensaje-success-registro.jpg" width="400" alt="Updated Data"></a></p>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## License
+
+Non-profit web application designed for the Venezuelan Social Security Institute (IVSS). Certain parts of the application logic were changed to avoid violating computer security standards.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTACT -->
+
+## Contact
+
+William Villegas - [LinkedIn](https://www.linkedin.com/in/william-villegas-ab3b94215/) - email@example.com
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
