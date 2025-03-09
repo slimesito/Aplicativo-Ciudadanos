@@ -3,36 +3,15 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/slimesito/Aplicativo-Ciudadanos"><img src="https://i.ibb.co/7YMFkYq/Logoivssrojo.png" alt="Logo IVSS" width="80" height="80"></a>
-  <h3 align="center">Web Application Ciudadanos</h3>
-  <p align="center">Web application made in Laravel 10 with HTML, CSS and JavaScript.<br /><a href="http://www.ivss.gov.ve/"><strong>IVSS Official Website</strong></a><br /></p>
+	<a href="https://github.com/slimesito/Aplicativo-Ciudadanos"><img src="https://i.ibb.co/7YMFkYq/Logoivssrojo.png" alt="Logo IVSS" width="80" height="80"></a>
+	<h3 align="center">Web Application Ciudadanos</h3>
+	<p align="center">Web application made in Laravel 10 with HTML, CSS and JavaScript.
+		<br>
+		<br>
+		<a href="http://www.ivss.gov.ve/"><strong>IVSS Official Website</strong></a>
+		<br>
+	</p>
 </div>
-
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
-</details>
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
@@ -47,9 +26,9 @@ It is a web application designed specifically for workers of the Venezuelan Soci
 
 This Web Application was created in Laravel 10, for the Front-End both HTML and CSS as well as JavaScript were used and for the Database the IVSS Database in Oracle was used.
 
-* <p align="center"><a><img src="https://logospng.org/wp-content/uploads/laravel.png" width="50" alt="Laravel Logo"></a></p>
-* <p align="center"><a><img src="https://www.php.net//images/logos/new-php-logo.svg" width="50" alt="PHP Logo"></a></p>
-* <p align="center"><a><img src="https://1000marcas.net/wp-content/uploads/2020/11/Oracle-logo-600x309.png" width="50" alt="Oracle Logo"></a></p>
+* <p><a><img src="https://www.pngwing.com/en/free-png-azcmi" width="100" href="https://laravel.com/" alt="Laravel Logo"></a></p>
+* <p><a><img src="https://www.php.net//images/logos/new-php-logo.svg" width="100" href="https://www.php.net/" alt="PHP Logo"></a></p>
+* <p><a><img src="https://1000marcas.net/wp-content/uploads/2020/11/Oracle-logo-600x309.png" href="https://www.oracle.com/" width="100" alt="Oracle Logo"></a></p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -145,6 +124,6 @@ Non-profit web application designed for the Venezuelan Social Security Institute
 
 ## Contact
 
-William Villegas - [LinkedIn](https://www.linkedin.com/in/william-villegas-ab3b94215/) - email@example.com
+William Villegas - [LinkedIn](https://www.linkedin.com/in/william-villegas-ab3b94215/) - williamonfroy@gmail.com
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
