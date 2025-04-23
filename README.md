@@ -21,8 +21,6 @@
 
 It is a web application designed specifically for workers of the Venezuelan Social Security Institute (IVSS). Its main objective is to allow the efficient addition of new citizens to the IVSS database, as well as a detailed search of each Citizen already registered in said database and the management of their information.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 ### Built With
 
 This Web Application was created in Laravel 10, for the Front-End both HTML and CSS as well as JavaScript were used and for the Database the IVSS Database in Oracle was used.
@@ -35,8 +33,6 @@ This Web Application was created in Laravel 10, for the Front-End both HTML and 
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
@@ -124,12 +120,17 @@ Once the information is saved, the following message will be displayed:
 
 Non-profit web application designed for the Venezuelan Social Security Institute (IVSS). Certain parts of the application logic were changed to avoid violating computer security standards.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTACT -->
 
 ## Contact
 
-William Villegas - [LinkedIn](https://www.linkedin.com/in/william-villegas-ab3b94215/) - williamonfroy@gmail.com
+#### **📩 Email:** [williamonfroy@gmail.com](mailto:williamonfroy@gmail.com)  
+#### **📱 Phone:** [+58 (424) 275-2723](tel:+584242752723)  
+#### **💼 LinkedIn:** [William Villegas](https://www.linkedin.com/in/william-villegas-ab3b94215/) 
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/william-villegas-ab3b94215/)
+[![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:williamonfroy@gmail.com)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/+584242752723)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
