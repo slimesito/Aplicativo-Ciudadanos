@@ -14,6 +14,7 @@
 </div>
 
 <!-- ABOUT THE PROJECT -->
+
 ## About The Project
 
 <p align="center"><a><img src="https://i.ibb.co/XZBdThCL/inicio.jpg" width="800" alt="Home View"></a></p>
@@ -28,10 +29,12 @@ This Web Application was created in Laravel 10, for the Front-End both HTML and 
 
 <br>
 
-- <p><a href="https://laravel.com/"><img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*o3osXIIdBYH3ovy86s1pFw.png" width="100" alt="Laravel Logo"></a></p>
-- <p><a href="https://www.php.net/"><img src="https://www.php.net//images/logos/new-php-logo.svg" width="100" alt="PHP Logo"></a></p>
-- <p><a href="https://www.oracle.com/"><img src="https://1000marcas.net/wp-content/uploads/2020/11/Oracle-logo-600x309.png" width="100" alt="Oracle Logo"></a></p>
-- <p><a href="https://www.javascript.com/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/600px-JavaScript-logo.png" width="50" alt="JavaScript Logo"></a></p>
+![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
