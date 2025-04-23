@@ -125,12 +125,8 @@ Non-profit web application designed for the Venezuelan Social Security Institute
 
 ## Contact
 
-#### **📩 Email:** [williamonfroy@gmail.com](mailto:williamonfroy@gmail.com)  
-#### **📱 Phone:** [+58 (424) 275-2723](tel:+584242752723)  
-#### **💼 LinkedIn:** [William Villegas](https://www.linkedin.com/in/william-villegas-ab3b94215/) 
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/william-villegas-ab3b94215/)
-[![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:williamonfroy@gmail.com)
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/+584242752723)
+#### **Email:** [williamonfroy@gmail.com](mailto:williamonfroy@gmail.com)  
+#### **Phone:** [+58 (424) 275-2723](tel:+584242752723)  
+#### **LinkedIn:** [William Villegas](https://www.linkedin.com/in/william-villegas-ab3b94215/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
