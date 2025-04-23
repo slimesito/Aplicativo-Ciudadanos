@@ -38,7 +38,7 @@ This Web Application was created in Laravel 10, for the Front-End both HTML and 
 
 ## Characteristics
 
-### - Search
+### 1. Search
 
 First, the user is asked to select the citizen's nationality (Venezuelan or Foreigner) and then the Identity Card to ensure an accurate search within the IVSS database.
 
@@ -62,7 +62,7 @@ When the ID card is found, the detailed information of the Citizen registered in
 
 <br>
 
-### - Edit
+### 2. Edit
 
 The user is allowed to Update the data of the found Citizen by clicking the green button in the Actions column.
 
@@ -80,7 +80,7 @@ The user is then redirected to the Edit form view:
 
 <br>
 
-### - Register
+### 3. Register
 
 The User must click on the Register button:
 
